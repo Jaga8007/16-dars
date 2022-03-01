@@ -54,3 +54,57 @@
     background-color: rgb(184, 185, 185);
     display: inline-block;
 }
+@media (max-width: 992px){
+    .box1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .box3{
+        width: 100%;
+    }
+    .text{
+        width: 50%;
+        display: inline-block;
+    }
+    .text1{
+        width: 49%;
+        display: inline-block;
+    }
+    .text2{
+        width: 50%;
+        display: inline-block
+    }
+    .text3{
+        width: 49%;
+        display: inline-block;
+    }
+}
+@media (max-width: 762px){
+    .box1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .box3{
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+        
+    }
+    .text1{
+        width: 100%;
+        display: none;
+    }
+    .text2{
+        width: 100%;
+        display: none;
+    }
+    .text3{
+        width: 100%;
+        display: none;
+    }
+}
